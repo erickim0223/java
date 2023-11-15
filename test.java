@@ -1,6 +1,6 @@
 class myProgram {
     public static void main(String args[]) {
-        hello("Eric");
+        hello("Eric Kim");
     }
 
     public static void hello(String name) {
