@@ -3,7 +3,8 @@ class myProgram {
         hello("Eric");
         System.out.println(add(1, 2));
         System.out.println(add(1, 2, 3));        
-
+        stack theStack = new stack();
+        System.out.println(theStack.property);        
     }
 
     public static void hello(String name) {
