@@ -3,8 +3,9 @@ class myProgram {
         hello("Eric");
         System.out.println(add(1, 2));
         System.out.println(add(1, 2, 3));        
-        stack theStack = new stack();
-        System.out.println(theStack.property);        
+        stack<Integer> theStack = new stack<Integer>();
+        System.out.println(theStack.property);
+        theStack.myStack = new Integer[]{};
     }
 
     public static void hello(String name) {
