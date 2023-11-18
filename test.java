@@ -6,6 +6,9 @@ class myProgram {
         stack<Integer> theStack = new stack<Integer>();
         System.out.println(theStack.property);
         theStack.myStack = new Integer[]{};
+        stack<String> stringStack = new stack<String>();
+        stringStack.myStack = new String[]{};
+
     }
 
     public static void hello(String name) {
